@@ -13,7 +13,7 @@ const router = new Router({
   routes
 })
 
-const horizon = new Horizon({ host: '192.168.1.251:8181' })
+const horizon = new Horizon({ host: '127.0.0.1:8181' })
 horizon.onReady(() => {
   Vue.prototype.$horizon = horizon
 
